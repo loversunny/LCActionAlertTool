@@ -2,9 +2,9 @@ Pod::Spec.new do |s|
 
 s.name         = "LCActionAlertTool”
 s.version      = "1.65"
-s.summary      = “custome alertAction for ios”
+s.summary      = "简单易用的图片无限轮播器. 1.65版本修复内容：新增纯文字轮播、增加viewController在来回push时候出现的图片卡在中间的解决方案-在控制器viewWillAppear时调用adjustWhenControllerViewWillAppera"
 
-s.homepage     = "https://github.com/loversunny/LCActionAlertTool"
+s.homepage     = "https://github.com/loversunny/LCActionAlertTool”
 
 s.license      = "MIT"
 
@@ -22,5 +22,6 @@ s.source_files  = "LCActionAlertView/*.{h,m}"
 
 
 
+s.dependency 'SDWebImage', '~> 4.0.0'
 
 end
