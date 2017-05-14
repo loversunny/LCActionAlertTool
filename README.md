@@ -1,2 +1,4 @@
 # LCActionAlertTool
 弹出菜单
+tableview操作完成,block回调,
+拖出LCActionAlertView这个文件夹到自己的工程即可使用
